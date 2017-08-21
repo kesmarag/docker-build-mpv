@@ -1,5 +1,6 @@
 Name:       mpv
 Version:    0.26.0
+Release:    7635%{?dist}
 Summary:    Movie player playing most video formats and DVDs
 
 Group:      Unspecified

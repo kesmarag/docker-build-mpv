@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-cd docker-mpv
+cd docker-build-mpv
 git pull
 rpmdev-setuptree
 cp mpv.spec /root/rpmbuild/SPECS/
