@@ -14,8 +14,7 @@ RUN dnf update -y && dnf install -y autoconf automake libtool freetype-devel fri
 
 RUN dnf install -y wget
 
-RUN git clone https://github.com/marhag87/docker-mpv.git
-
+RUN git clone https://github.com/kesmarag/docker-build-mpv.git
 
 COPY build.sh /
 

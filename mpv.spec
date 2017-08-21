@@ -1,6 +1,5 @@
 Name:       mpv
 Version:    0.26.0
-Release:    7635%{?dist}
 Summary:    Movie player playing most video formats and DVDs
 
 Group:      Unspecified
@@ -35,5 +34,5 @@ cp mpv/build/mpv %{buildroot}/usr/bin/
 /usr/bin/mpv
 
 %changelog
-* Wed Jun 22 2016 Martin Hagstrom <marhag87@gmail.com> 0.26.0-7635
+* Wed Jun 22 2016 Martin Hagstrom <marhag87@gmail.com> 0.26.0
 - Initial release
