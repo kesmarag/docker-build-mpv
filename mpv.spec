@@ -22,7 +22,7 @@ than disk files. Depending on platform, a variety of different video and audio
 output methods are supported.
 
 %prep
-%autosetup -n mpv-build-v0.26.0
+%autosetup -n mpv-v0.26.0
 
 %build
 ./rebuild -j$(($(nproc)+1))
